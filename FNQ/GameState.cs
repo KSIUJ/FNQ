@@ -5,7 +5,9 @@ using System.Text;
 
 namespace FNQ
 {
-    class GameState
+    public class GameState
     {
+        public QuizQuestion[] questionDB;
+        public RankingEntry[] rankingDB;
     }
 }
